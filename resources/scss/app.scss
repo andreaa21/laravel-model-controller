@@ -1,7 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
 
 body{
-    background-color: rgb(59, 76, 107);
+    background-color: rgb(58, 86, 138);
     color: rgb(228, 228, 228);
 }
 
@@ -9,6 +9,15 @@ ul{
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+a{
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+    padding: 0 1rem;
+    &:hover{
+        color: coral;
+    }
 }
 
 .x-card{
