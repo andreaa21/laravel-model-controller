@@ -17,7 +17,8 @@
 
 <body>
 
-    <h1>Laravel Model - Composer</h1>
+
+    @yield('content')
 
 </body>
 
